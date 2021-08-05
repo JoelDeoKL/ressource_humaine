@@ -30,5 +30,7 @@ class AdmController extends x_Controller
         }
     }
 
-
+    public function recrutement(){
+        $this->load->view("addEmploye");
+    }
 }
